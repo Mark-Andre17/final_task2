@@ -1,0 +1,45 @@
+$text-color: rgba(126, 126, 130, 1)
+$bg-color: rgba(248, 248, 248, 1)
+
+.footer
+    padding-top: 16px
+    padding-bottom: 16px
+    text-align: center
+    color: $text-color
+
+    &__info-copy
+        margin-bottom: 16px
+    &__info-politics
+        margin-bottom: 16px
+        
+.uppercase
+    text-transform: uppercase
+
+// Media queries 768px
+@media screen and (min-width: 768px)
+    .footer__info
+        display: flex
+        justify-content: space-between
+        align-items: flex-start
+        gap: 40px
+
+        &-copy
+            margin: 0
+            width: 40%
+            text-align: left
+
+        &-politics
+            margin: 0
+            width: 50%
+            text-align: center
+
+        &-offer
+            width: 40%
+            text-align: right
+
+// Media queries 1366px
+@media screen and (min-width: 1366px)
+    .footer
+        padding-top: 32px
+        padding-bottom: 32px
+        background-color: $bg-color
