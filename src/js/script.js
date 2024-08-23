@@ -27,9 +27,8 @@ const callCloseBtn = document.querySelector('.call__close')
 // для 320px и web
 
 const callkBtnSide = document.querySelectorAll('.sidebar__btn')[0]
-console.log(callkBtnSide);
 const feedbackBtnSide = document.querySelectorAll('.sidebar__btn')[1]
-console.log(feedbackBtnSide);
+
 
 // end
 // Точки
